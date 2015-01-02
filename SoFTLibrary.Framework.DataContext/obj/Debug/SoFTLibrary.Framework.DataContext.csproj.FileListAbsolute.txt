@@ -1,10 +1,8 @@
+H:\Tutorial\Product\SoftLibrary\SoFTLibrary.Framework.DataContext\obj\Debug\SoFTLibrary.Framework.DataContext.dll
 H:\Tutorial\Product\SoftLibrary\SoFTLibrary.Framework.DataContext\obj\Debug\SoFTLibrary.Framework.DataContext.csprojResolveAssemblyReference.cache
+H:\Tutorial\Product\SoftLibrary\SoFTLibrary.Framework.DataContext\obj\Debug\SoFTLibrary.Framework.DataContext.pdb
 H:\Tutorial\Product\SoftLibrary\SoFTLibrary.Framework.DataContext\bin\Debug\SoFTLibrary.Framework.DataContext.dll
 H:\Tutorial\Product\SoftLibrary\SoFTLibrary.Framework.DataContext\bin\Debug\SoFTLibrary.Framework.DataContext.pdb
-H:\Tutorial\Product\SoftLibrary\SoFTLibrary.Framework.DataContext\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
-H:\Tutorial\Product\SoftLibrary\SoFTLibrary.Framework.DataContext\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
 H:\Tutorial\Product\SoftLibrary\SoFTLibrary.Framework.DataContext\bin\Debug\Oracle.ManagedDataAccess.dll
-H:\Tutorial\Product\SoftLibrary\SoFTLibrary.Framework.DataContext\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
-H:\Tutorial\Product\SoftLibrary\SoFTLibrary.Framework.DataContext\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
-H:\Tutorial\Product\SoftLibrary\SoFTLibrary.Framework.DataContext\obj\Debug\SoFTLibrary.Framework.DataContext.dll
-H:\Tutorial\Product\SoftLibrary\SoFTLibrary.Framework.DataContext\obj\Debug\SoFTLibrary.Framework.DataContext.pdb
+H:\Tutorial\Product\SoftLibrary\SoFTLibrary.Framework.DataContext\bin\Debug\SoFTLibrary.Framework.ComponentModels.dll
+H:\Tutorial\Product\SoftLibrary\SoFTLibrary.Framework.DataContext\bin\Debug\SoFTLibrary.Framework.ComponentModels.pdb

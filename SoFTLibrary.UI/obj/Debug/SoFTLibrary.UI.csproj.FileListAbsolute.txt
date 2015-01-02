@@ -32,6 +32,6 @@ H:\Tutorial\Product\SoftLibrary\SoFTLibrary.UI\bin\Antlr3.Runtime.pdb
 H:\Tutorial\Product\SoftLibrary\SoFTLibrary.UI\bin\System.Net.Http.Formatting.xml
 H:\Tutorial\Product\SoftLibrary\SoFTLibrary.UI\bin\System.Web.Http.xml
 H:\Tutorial\Product\SoftLibrary\SoFTLibrary.UI\bin\System.Web.Http.WebHost.xml
-H:\Tutorial\Product\SoftLibrary\SoFTLibrary.UI\obj\Debug\SoFTLibrary.UI.csprojResolveAssemblyReference.cache
 H:\Tutorial\Product\SoftLibrary\SoFTLibrary.UI\obj\Debug\SoFTLibrary.UI.dll
 H:\Tutorial\Product\SoftLibrary\SoFTLibrary.UI\obj\Debug\SoFTLibrary.UI.pdb
+H:\Tutorial\Product\SoftLibrary\SoFTLibrary.UI\obj\Debug\SoFTLibrary.UI.csprojResolveAssemblyReference.cache
