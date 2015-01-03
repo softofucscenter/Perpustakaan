@@ -39,11 +39,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ServiceRepository\ISampleRepository.cs" />
+    <Compile Include="CoreRepository\SampleRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="CoreRepository\" />
-    <Folder Include="ServiceRepository\" />
+    <ProjectReference Include="..\SoFTLibrary.Framework.ComponentModels\SoFTLibrary.Framework.ComponentModels.csproj">
+      <Project>{9ff5648c-cec8-4504-8ee8-4526c79c9e64}</Project>
+      <Name>SoFTLibrary.Framework.ComponentModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SoFTLibrary.Framework.DataContext\SoFTLibrary.Framework.DataContext.csproj">
+      <Project>{2afba08a-92e8-4390-99fa-218cdad795c9}</Project>
+      <Name>SoFTLibrary.Framework.DataContext</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SoFTLibrary.Framework.ExtentionCores\SoFTLibrary.Framework.ExtentionCores.csproj">
+      <Project>{dfb6e5cc-0ec3-4179-842a-467cbc91e409}</Project>
+      <Name>SoFTLibrary.Framework.ExtentionCores</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

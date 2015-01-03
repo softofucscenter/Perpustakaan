@@ -2,8 +2,6 @@
 using SoftFocusCenter.EncryptionWrapper;
 using System.Data;
 using System.Data.Common;
-using Microsoft.Practices.EnterpriseLibrary.Data;
-using Microsoft.Practices.EnterpriseLibrary.Data.Sql;
 using Oracle.ManagedDataAccess.Client;
 
 namespace SoFTLibrary.Framework.DataContext.Infrastructure
@@ -15,23 +13,9 @@ namespace SoFTLibrary.Framework.DataContext.Infrastructure
 
         protected DbCommand DCommand;
         protected IDataReader DReader;
-        private Database _sqlDatabase;
         private OracleConnection _oracleDatabase;
+        private string _connectionString;
 
-        protected Database SqlDatabase
-        {
-            get
-            {
-                var connString = Encryption.Decrypt(SqlConnectionString);
-                SqlDatabase = new SqlDatabase(connString);
-                return _sqlDatabase;
-            }
-            set
-            {
-                _sqlDatabase = value;
-            }
-
-        }
 
         protected OracleConnection OracleDb
         {
@@ -46,7 +30,15 @@ namespace SoFTLibrary.Framework.DataContext.Infrastructure
             {
                 _oracleDatabase = value;
             }
+        }
 
+        protected string ConnectionString
+        {
+            get
+            {
+                _connectionString = Encryption.Decrypt(SqlConnectionString);
+                return _connectionString;
+            }
         }
 
     }

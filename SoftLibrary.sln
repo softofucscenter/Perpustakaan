@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoFTLibrary.Framework.Infra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoFTLibrary.UI", "SoFTLibrary.UI\SoFTLibrary.UI.csproj", "{AB7C4AAA-8A9D-4206-925D-2974E6F5C3DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoFTLibrary.Sample.UI", "SoFTLibrary.Sample.UI\SoFTLibrary.Sample.UI.csproj", "{839D73C3-A4C7-48F7-A2A7-5E63011547D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{AB7C4AAA-8A9D-4206-925D-2974E6F5C3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB7C4AAA-8A9D-4206-925D-2974E6F5C3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB7C4AAA-8A9D-4206-925D-2974E6F5C3DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{839D73C3-A4C7-48F7-A2A7-5E63011547D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{839D73C3-A4C7-48F7-A2A7-5E63011547D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{839D73C3-A4C7-48F7-A2A7-5E63011547D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{839D73C3-A4C7-48F7-A2A7-5E63011547D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
